@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Simple Wordpress Version Control
+Plugin Name: Simple Wordpress Update Control
 Plugin URI: http://github.com/msigley/
 Description: Hides major core Wordpress, plugin, and theme update notifications for better version control. Also disables all auto-updates but minor/security Wordpress updates.
 Version: 1.0.3
