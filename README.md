@@ -1,7 +1,7 @@
 simple-wp-update-control
 =========================
 
-A Wordpress plugin that hides major core Wordpress, plugin, and theme update notifications for better version control. Also disables all auto-updates but minor/security Wordpress updates.
+A Wordpress plugin that hides major core Wordpress, plugin, and theme update notifications for better version control. Disables all updates and auto-updates except minor core releases. Minor core updates can be manaully updated from the Wordpress admin area as well even if your Wordpress install isn't on the latest major release.
 
 Works with Wordpress 3.7+.
 
