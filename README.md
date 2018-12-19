@@ -5,4 +5,4 @@ A Wordpress plugin that hides major core Wordpress, plugin, and theme update not
 
 Works with Wordpress 3.7+.
 
-Confirmed the minor updates are allowed on a test install updating from 3.8.1 to 3.8.2.
+Confirmed the minor updates are allowed on a test install updating from 4.9.8 to 4.9.9.
