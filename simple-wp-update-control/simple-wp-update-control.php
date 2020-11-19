@@ -54,11 +54,11 @@ add_filter( 'pre_set_site_transient_update_core', 'simple_vc_disable_major_updat
 
 // Disable theme updates
 remove_action( 'load-update-core.php', 'wp_update_themes' );
-add_filter( 'pre_site_transient_update_themes', create_function( '$a', "return null;" ) );
+add_filter( 'pre_site_transient_update_themes', function($a) {return null;} );
 
 // Disable plugin updates
 remove_action( 'load-update-core.php', 'wp_update_plugins' );
-add_filter( 'pre_site_transient_update_plugins', create_function( '$a', "return null;" ) );
+add_filter( 'pre_site_transient_update_plugins', function($a) {return null;} );
 
 //Configure auto-updates for Wordpress 3.7+
 //Disable development auto-updates
